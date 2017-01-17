@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextImageView">
+        <!-- Text being drawn over the image -->
+        <attr name="android:text" />
+
+        <!-- Color to apply to the text being drawn over the image -->
+        <attr name="android:textColor" />
+
+        <!-- Size of the text being drawn over the image -->
+        <attr name="android:textSize" />
+
+        <!-- Whether or not to allow the user to move the text -->
+        <attr name="tiv_panEnabled" format="boolean" />
+
+        <!-- Controls how the the positioning behaves in relation to the image -->
+        <attr name="tiv_clampTextMode" format="enum">
+            <!-- Do not limit text position -->
+            <enum name="unlimited" value="0" />
+            <!-- Top-left corner inside the area of the image -->
+            <enum name="originInside" value="1" />
+            <!-- The whole text should fit inside the area of the image -->
+            <enum name="textInside" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ColorPicker">
+        <attr name="picker_radius" format="dimension" />
+        <attr name="line_thickness" format="dimension" />
+        <attr name="circle_stroke_thickness" format="dimension" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_outside_color" format="color" />
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ColorSeekBar">
+        <attr name="colors" format="reference" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="thumbHeight" format="dimension" />
+        <attr name="showAlphaBar" format="boolean" />
+        <attr name="alphaBarValue" format="integer" />
+        <attr name="colorBarValue" format="integer" />
+        <attr name="bgColor" format="color" />
+        <attr name="barMargin" format="dimension" />
+        <attr name="maxValue" format="integer" />
+    </declare-styleable>
+
+
+</resources>

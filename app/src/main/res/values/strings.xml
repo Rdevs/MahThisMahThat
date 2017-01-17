@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MahThisMahThat</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_darg_and_drop">DargAndDrop</string>
+    <string name="addview">Add View</string>
+    <string name="removeview">Remove View</string>
+
+    <string name="text_filter_normal">Normal</string>
+    <string name="text_filter_meifu">Meifu</string>
+    <string name="text_filter_meishi">Meishi</string>
+    <string name="text_filter_amaro">AMaro</string>
+    <string name="text_filter_rise">Rise</string>
+    <string name="text_filter_hudson">Hudson</string>
+    <string name="text_filter_xproii">Xpro</string>
+    <string name="text_filter_sierra">Sierra</string>
+    <string name="text_filter_lomofi">Lomofi</string>
+    <string name="text_filter_early_bird">Early bird</string>
+    <string name="text_filter_sutro">Sutro</string>
+    <string name="text_filter_toaster">Toaster</string>
+    <string name="text_filter_brannan">Brannan</string>
+    <string name="text_filter_inkwell">Inkwell</string>
+    <string name="text_filter_walden">Walden</string>
+    <string name="text_filter_hefe">Hefe</string>
+    <string name="text_filter_valencia">Valencia</string>
+    <string name="text_filter_nashville">Nashville</string>
+    <string name="text_filter_in1977">1977</string>
+    <string name="text_filter_lord_kelvin">Kelvin</string>
+    <string name="mah">\"Mah\"</string>
+    <string name="meme">Meme</string>
+    <string name="generator">Generator</string>
+
+</resources>
